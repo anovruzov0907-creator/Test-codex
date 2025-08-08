@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /api
+Disallow: /2fa
+Disallow: /confirm_signup
+Disallow: /example.txt
+Disallow: /*?service=*
+Disallow: /page?id=*
+Disallow: /?r=*
+Sitemap: https://panelbaku.com/sitemap.xml
