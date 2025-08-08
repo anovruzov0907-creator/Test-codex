@@ -1,0 +1,31 @@
+{
+  "name": "modern-website",
+  "version": "1.0.0",
+  "description": "Modern ve güzel bir website projesi",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 3000",
+    "dev": "python -m http.server 8000",
+    "serve": "npx live-server --port=3000",
+    "build": "echo 'Static website - no build required'"
+  },
+  "keywords": [
+    "website",
+    "modern",
+    "responsive",
+    "html",
+    "css",
+    "javascript",
+    "türkçe"
+  ],
+  "author": "ModernSite Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/modern-website"
+  },
+  "homepage": "https://username.github.io/modern-website"
+}
